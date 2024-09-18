@@ -9,18 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@zkpass/transgate-js-sdk": "^0.2.0",
+    "ethers": "^6.13.2",
+    "next": "14.2.11",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.11"
+    "react-json-pretty": "^2.2.0",
+    "styled-components": "^6.1.13",
+    "web3": "^4.12.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.11",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.11"
+    "typescript": "^5"
   }
 }
