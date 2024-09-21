@@ -20,7 +20,7 @@ contract ProofVerifiedNFT is ERC721, Ownable, ProofVerifier {
     {}
 
     function mintWithProof(Proof calldata _proof) public returns (uint256) {
-        require(_proof.schemaId == "74cddfcc606c4b9693b7860ebbdf127b", "Different shemaId");
+        require(_proof.schemaId == "fc126b2b1f734989b415c901d1021177", "Different shemaId");
         require(verify(_proof), "Invalid proof");
 
         bytes32 proofHash = keccak256(abi.encode(_proof));
